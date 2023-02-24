@@ -11,6 +11,7 @@ import { FaGraduationCap } from 'react-icons/fa';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { Outlet, Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import Testimonials from '../Main/Testimonials'
 
 function index() {
   return (
@@ -68,6 +69,11 @@ function index() {
         </div>
 
 
+      </div>
+
+
+      <div>
+        <Testimonials />
       </div>
 
       <div className='p-10 z-50 flex items-center justify-center flex-col gap-5'>
