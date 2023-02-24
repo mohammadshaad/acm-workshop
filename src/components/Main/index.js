@@ -17,7 +17,7 @@ function index() {
     <>
       <Navbar students={false} faculties={false} />
 
-      <div className='h-auto bg-white grid md:grid-cols-2 p-10'>
+      <div className='h-auto bg-white grid md:grid-cols-2 p-20 md:p-10'>
         <div className='flex items-center md:items-start justify-center flex-col gap-4 max-w-7xl'>
           <h1 className={`${Styles.times_new_roman} md:text-lg `}>
             Welcome to
@@ -29,7 +29,7 @@ function index() {
             className={`${Styles.poppins} text-4xl text-[#4CAF50] md:text-7xl font-bold text-center md:text-left`}>
             SCOPE
             <br />
-            <span className={`${Styles.times_new_roman} font-normal`}>
+            <span className={`${Styles.times_new_roman} font-normal text-2xl md:text-7xl`}>
               A TALENT HUB
             </span>
           </motion.h2>
@@ -55,10 +55,10 @@ function index() {
       <div className='w-screen h-full bg-gray-800 text-gray-200'>
 
         <div className='flex items-center justify-center flex-col relative md:top-20 p-4 md:p-0 md:mb-5'>
-          <h1 className={`${Styles.times_new_roman} md:text-sm `}>
+          <h1 className={`${Styles.times_new_roman} text-xs md:text-sm `}>
             Featured achievements
           </h1>
-          <h2 className={`${Styles.times_new_roman} text-2xl text-[#4CAF50] md:text-6xl font-bold`}>
+          <h2 className={`${Styles.times_new_roman} text-2xl text-[#4CAF50] md:text-6xl font-bold text-center`}>
             Once A VITian,  Always A VITian
           </h2>
         </div>
