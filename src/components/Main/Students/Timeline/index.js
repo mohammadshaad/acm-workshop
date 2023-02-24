@@ -9,6 +9,10 @@ import four1 from '../../../../assets/4/gautham-cert.jpeg'
 import four2 from '../../../../assets/4/gautham-krishna.jpeg'
 import four3 from '../../../../assets/4/sabari-cert.jpeg'
 import four4 from '../../../../assets/4/sabari-ganesh.jpeg'
+import five1 from '../../../../assets/5/jaya-ganesh.jpeg'
+import five2 from '../../../../assets/5/navatej.jpeg'
+import five3 from '../../../../assets/5/susi.jpeg'
+import five4 from '../../../../assets/5/tamil-comp-2022.jpeg'
 import { motion } from "framer-motion";
 
 
@@ -50,13 +54,13 @@ const events = [
     },
     {
         id: 5,
-        image41: four1,
-        image42: four2,
-        image43: four3,
-        image44: four4,
+        image41: five1,
+        image42: five2,
+        image43: five3,
+        image44: five4,
         year: "2021",
         title: "Tamil Computing 2022",
-        description: "Our team “Green Genesis participated in “Lumos Metaverse’s Build for Web3 Hackathon” which had around 7700+ developers across the world with all proficiency and 14 winning tracks by sponsors !! Our students’ team won Pool Prize in Polygon Track.",
+        description: "Our students won the first prize with cash award Rs. 50000 /- in Hackathon on Tamil Computing 2022 jointly organized by Tamil Virtual Academy and VIT Vellore.",
     },
     {
         id: 6,
