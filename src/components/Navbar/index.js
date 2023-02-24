@@ -105,14 +105,14 @@ function Index(props) {
                         <div className="md:hidden rounded-xl shadow-lg" id="mobile-menu">
                             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#f1f5f9] ">
                                 <Link
-                                    to="/"
+                                    to="/students"
                                     className={`hover:bg-green-600 hover:text-white ${props.students? "text-gray-900" : "text-gray-500"} block px-3 py-2 rounded-md text-base font-medium`}
                                 >
                                     Students
                                 </Link>
 
                                 <Link
-                                    to="/about"
+                                    to="/faculties"
                                     className={`hover:bg-green-600 hover:text-white ${props.faculties? "text-gray-900" : "text-gray-500"} block px-3 py-2 rounded-md text-base font-medium`}
                                 >
                                     Faculties

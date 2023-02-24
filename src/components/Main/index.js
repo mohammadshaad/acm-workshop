@@ -10,7 +10,7 @@ import victory from '../../assets/victory.png'
 import { FaGraduationCap } from 'react-icons/fa';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { Outlet, Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 
 function index() {
   return (
@@ -18,22 +18,38 @@ function index() {
       <Navbar students={false} faculties={false} />
 
       <div className='h-auto bg-white grid md:grid-cols-2 p-10'>
-        <div className='flex items-center md:items-start justify-center flex-col gap-4'>
+        <div className='flex items-center md:items-start justify-center flex-col gap-4 max-w-7xl'>
           <h1 className={`${Styles.times_new_roman} md:text-lg `}>
             Welcome to
           </h1>
-          <h2 className={`${Styles.poppins} text-4xl text-[#4CAF50] md:text-7xl font-bold text-center md:text-left`}>
+          <motion.h2
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className={`${Styles.poppins} text-4xl text-[#4CAF50] md:text-7xl font-bold text-center md:text-left`}>
             SCOPE
             <br />
             <span className={`${Styles.times_new_roman} font-normal`}>
               A TALENT HUB
             </span>
-          </h2>
+          </motion.h2>
         </div>
 
-        <div className='flex items-center justify-center'>
-          <img src={victory} alt='' className='w-full' />
-        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+
+          <div className='flex items-center justify-center'>
+            <motion.img
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              src={victory} alt='' className='w-full' />
+          </div>
+        </motion.div>
+
       </div>
 
       <div className='w-screen h-full bg-gray-800 text-gray-200'>
