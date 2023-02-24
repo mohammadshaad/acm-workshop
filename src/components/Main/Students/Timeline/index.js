@@ -161,7 +161,7 @@ const Timeline = () => {
                         >
                             <span className="text-white">{event.id}</span>
                         </motion.div>
-                        <div className="ml-4 font-bold">{event.title}</div>
+                        <div className="ml-4 text-sm md:text-lg font-bold">{event.title}</div>
                     </div>
                     {hoveredEvent === event && (
                         <motion.div
@@ -169,7 +169,8 @@ const Timeline = () => {
                             className="ml-12 cursor-pointer transition-all duration-500 flex flex-wrap items-start justify-center flex-col gap-5"
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0, transition: { delay: 0.2 } }}
-                        >                            <p className="text-gray-700">{event.description}</p>
+                        >
+                            <p className="text-gray-700 text-xs md:text-base">{event.description}</p>
                             {/* <p className="text-gray-700">{event.winners}</p> */}
                             <div className="flex items-start justify-center flex-col md:flex-row gap-2">
                                 <img src={event.image11} alt='' />
