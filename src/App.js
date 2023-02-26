@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col justify-center w-screen bg-slate-100">
+      <div className="min-h-screen flex flex-col justify-center w-screen">
 
         <div className="">
           {loading ? (
@@ -29,7 +29,7 @@ function App() {
               <BrowserRouter>
                 <Routes>
                   <Route index element={<Main />} />
-                  <Route path="/students" element={<Students />} />
+                  <Route path="/achievements" element={<Students />} />
                   <Route path="/faculties" element={<Faculties />} />
                   <Route path="*" element={<ErrorPage />} />
                 </Routes>

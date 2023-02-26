@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "images": [
+      "https://chennai.vit.ac.in/wp-content/uploads/2023/02/sivaguru.jpg",
+      "https://chennai.vit.ac.in/wp-content/uploads/2023/02/kural.jpg",
+      "https://chennai.vit.ac.in/wp-content/uploads/2023/02/cyber-hack-2022.jpg"
+    ],
+    "names": ["Shiva Gurunath – 20BPS1028", "Kuralamuthan B – 20BPS1082"],
+    "title": "Cyber Hackathon 2022 Winners",
+    "description": "The team of SCOPE faculty and students Dr. Vallidevi K, Associate Professor, SCOPE, Shiva Gurunath – 20BPS1028, Kuralamuthan B – 20BPS1082 won the I Prize in the finals and awarded the gifts and trophy by Mr. Shankar Jiwal, Chennai Police Commissioner, Selvi. Kiran Shruthi, IPS, Deputy Commissioner of Police, Ms. G.Nagajothi, Deputy Commissioner of Police& Dr. R. Velraj, VC, Anna University."
+  }
+]

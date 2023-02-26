@@ -27,17 +27,16 @@ function Index(props) {
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <Link
-                                        to="/Students"
-                                        className={`hover:bg-green-600 hover:text-white  ${props.students? "text-gray-900" : "text-gray-600"} px-3 py-2 rounded-md text-sm font-medium`}
+                                        to="/"
+                                        className={`hover:bg-green-600 hover:text-white  ${props.home? "text-gray-900" : "text-gray-600"} px-3 py-2 rounded-md text-sm font-medium`}
                                     >
-                                        Students
+                                        Home
                                     </Link>
-
                                     <Link
-                                        to="/Faculties"
-                                        className={`hover:bg-green-600 hover:text-white  ${props.faculties? "text-gray-900" : "text-gray-600"} px-3 py-2 rounded-md text-sm font-medium`}
+                                        to="/achievements"
+                                        className={`hover:bg-green-600 hover:text-white  ${props.achievements? "text-gray-900" : "text-gray-600"} px-3 py-2 rounded-md text-sm font-medium`}
                                     >
-                                        Faculties
+                                        Achievements
                                     </Link>
 
 
@@ -105,18 +104,18 @@ function Index(props) {
                         <div className="md:hidden rounded-xl shadow-lg" id="mobile-menu">
                             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#f1f5f9] ">
                                 <Link
-                                    to="/students"
-                                    className={`hover:bg-green-600 hover:text-white ${props.students? "text-gray-900" : "text-gray-500"} block px-3 py-2 rounded-md text-base font-medium`}
+                                    to="/"
+                                    className={`hover:bg-green-600 hover:text-white ${props.home? "text-gray-900" : "text-gray-500"} block px-3 py-2 rounded-md text-base font-medium`}
                                 >
-                                    Students
+                                    Home
+                                </Link>
+                                <Link
+                                    to="/achievements"
+                                    className={`hover:bg-green-600 hover:text-white ${props.achievements? "text-gray-900" : "text-gray-500"} block px-3 py-2 rounded-md text-base font-medium`}
+                                >
+                                    Achievements
                                 </Link>
 
-                                <Link
-                                    to="/faculties"
-                                    className={`hover:bg-green-600 hover:text-white ${props.faculties? "text-gray-900" : "text-gray-500"} block px-3 py-2 rounded-md text-base font-medium`}
-                                >
-                                    Faculties
-                                </Link>
 
 
                             </div>

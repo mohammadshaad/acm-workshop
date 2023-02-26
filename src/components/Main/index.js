@@ -16,7 +16,8 @@ import Testimonials from '../Main/Testimonials'
 function index() {
   return (
     <>
-      <Navbar students={false} faculties={false} />
+      <Navbar home={true} achievements={false}  />
+
 
       <div className='h-auto bg-white grid md:grid-cols-2 p-20 md:p-10'>
         <div className='flex items-center md:items-start justify-center flex-col gap-4 max-w-7xl'>
