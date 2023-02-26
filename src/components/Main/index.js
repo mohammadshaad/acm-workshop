@@ -77,7 +77,7 @@ function index() {
         <Testimonials />
       </div>
 
-      <div className='p-10 z-50 flex items-center justify-center flex-col gap-5'>
+      {/* <div className='p-10 z-50 flex items-center justify-center flex-col gap-5'>
 
         <div>
           <h1 className={`${Styles.times_new_roman} text-2xl md:text-5xl `}>
@@ -114,7 +114,7 @@ function index() {
         </div>
 
 
-      </div>
+      </div> */}
 
 
     </>
